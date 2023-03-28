@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CSS Columns</title>
+</head>
+<body>
+    <!--logo & navbar-->
+   <header>
+       <div class="container1">
+           <div class="logo">
+               <img class="img-logo" src="./images/pngwing.com.png" alt="logo">
+           </div>
+           <div class="navbar">
+               <ul class="nav-list">
+                   <li class="list-items"><a href="#home">Home</a></li>
+                   <li class="list-items"> <a href="#about">About</a></li>
+                   <li class="list-items"><a href="#services">Services</a></li>
+                   <li class="list-items"><a href="#contact">Contact</a></li>
+               </ul>
+           </div>
+           <div class="icons">
+               <div class="search-bar">
+                   <input type="text" placeholder="Search...">
+                   <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+               </div>
+           </div>
+       </div>
+   </header>
+   <main>
+       <!--columns section-->
+       <div class="container">
+           <div class="row">
+               <div class="column" id="yellow">
+                   <img class="img" src="./images/icon-sedans.svg" alt="sedan car">
+                   <h2 class="title">SEDANS</h2>
+                   <p class="text">Choose a sedan for its
+                    affordability and excellent
+                    fuel economy. Ideal for
+                    cruising in the city or on
+                    vour next road trip.</p>
+                    <button class="btn" id="btn-yellow">Learn More</button>
+               </div>
+               <div class="column" id="teal">
+                   <img class="img" src="./images/icon-suvs.svg" alt="suv car">
+                   <h2 class="title">SUVS</h2>
+                   <p class="text">Take an SUV for its spacious
+                    interior, power, and
+                    versatility. Perfect for your
+                    next family vacation and
+                    off-road adventures.</p>
+                    <button class="btn" id="btn-teal">Learn More</button>
+               </div>
+               <div class="column" id="green">
+                   <img class="img" src="./images/icon-luxury.svg" alt="luxury car">
+                   <h2 class="title">LUXURY</h2>
+                   <p class="text">Cruise in the best car brands
+                    without the bloated prices.
+                    Enjoy the enhanced comfort
+                    of a luxury rental and arrive
+                    in stvle</p>
+                    <button class="btn" id="btn-green">Learn More</button>
+               </div>
+           </div>
+       </div>
+   </main>
+</body>
+</html>
